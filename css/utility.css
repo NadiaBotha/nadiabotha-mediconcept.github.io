@@ -140,7 +140,7 @@
     height:100%;
 }
 
-.services-gallery .service img:hover{
+.service img:hover{
     opacity: 0.6;
 }
 

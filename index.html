@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ad6610132a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/utility.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Welcome To MediConcept</title>
@@ -86,22 +87,48 @@
         </div>
         <div class="services-gallery">
             <div class="service">
-                <img src="./images/home/doctor.jpg" alt="">
+                <a
+                href="images/home/doctor.jpg"
+                data-lightbox="services"
+                data-title="Medical Consultations">
+                <img src="images/home/doctor.jpg" alt="" />
+              </a>
             </div>
             <div class="service">
-                <img src="./images/home/pharmacy.jpg" alt="">
+                <a href="./images/home/pharmacy.jpg" 
+                data-lightbox="services"
+                data-title="Pharmacy">
+                    <img src="./images/home/pharmacy.jpg" alt="" >
+                </a>
             </div>
             <div class="service">
+                <a href="./images/home/physio.jpg" 
+                data-lightbox="services"
+                data-title="Physio">
                 <img src="./images/home/physio.jpg" alt="">
+                </a>    
             </div>
             <div class="service">
+                <a href="./images/home/therapy.jpg" 
+                data-lightbox="services"
+                data-title="Therapy">
                 <img src="./images/home/therapy.jpg" alt="">
+                </a>    
             </div>
             <div class="service">
+                <a href="./images/home/dentist.jpg" 
+                data-lightbox="services"
+                data-title="Dentist">
                 <img src="./images/home/dentist.jpg" alt="">
+                </a>    
             </div>
             <div class="service">
+                <a href="./images/home/dietician.jpg" 
+                data-lightbox="services"
+                data-title="Dietician">
                 <img src="./images/home/dietician.jpg" alt="">
+                </a> 
+                
             </div>
         </div>
     </section>
@@ -199,6 +226,8 @@
       integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
       crossorigin="anonymous"
     ></script>
+
+    <script src="js/lightbox.min.js"></script>
 
     <script>
         $('#navbar a, .btn').on('click', function (e) {
